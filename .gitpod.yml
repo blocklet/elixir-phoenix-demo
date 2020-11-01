@@ -1,7 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init:  abtnode init -f --mode debug && cd src && mix deps.get
+  - init:  abtnode init -f --mode debug && cd src && mix deps.get && cd assets && npm install
     command: abtnode start && abtnode dev
 ports:
   - port: 8080

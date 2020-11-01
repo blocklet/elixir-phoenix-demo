@@ -5,5 +5,5 @@ Blocklet build with Phoenix Framework and Elixir
 
 Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/blocklet/Elixir-Phoenix-Demo)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/Elixir-Phoenix-Demo)
 

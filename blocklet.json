@@ -1,0 +1,29 @@
+{
+    "name": "Elixir-Phoenix-Demo",
+    "description": "Elixir Phoenix Blocklet Demo",
+    "version": "0.0.1",
+    "group": "demo",
+    "color": "primary",
+    "public_url": "/",
+    "admin_url": "",
+    "config_url": "",
+    "doc_url": "",
+    "provider": "community",
+    "keywords": [],
+    "author": "ArcBlock",
+    "main" : ".",
+    "engine": {
+      "interpreter": "",
+      "script": ".",
+      "args": []
+    },
+    "capabilities": {
+      "dynamicPathPrefix": false
+    },
+    "hooks": {
+      "pre-deploy": ""
+    },
+    "scripts": {
+      "dev": "cd src && mix phx.server"
+    }
+  }

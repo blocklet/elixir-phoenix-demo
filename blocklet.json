@@ -2,7 +2,7 @@
     "name": "Elixir-Phoenix-Demo",
     "description": "Elixir Phoenix Blocklet Demo",
     "version": "0.0.1",
-    "group": "demo",
+    "group": "dapp",
     "color": "primary",
     "public_url": "/",
     "admin_url": "",

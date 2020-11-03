@@ -24,6 +24,6 @@
       "pre-deploy": ""
     },
     "scripts": {
-      "dev": "cd src && mix phx.server"
+      "dev": "cd demo && mix phx.server"
     }
   }

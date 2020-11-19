@@ -12,11 +12,6 @@
     "keywords": [],
     "author": "ArcBlock",
     "main" : ".",
-    "engine": {
-      "interpreter": "",
-      "script": ".",
-      "args": []
-    },
     "capabilities": {
       "dynamicPathPrefix": false
     },

@@ -15,9 +15,6 @@
     "capabilities": {
       "dynamicPathPrefix": false
     },
-    "hooks": {
-      "pre-deploy": ""
-    },
     "scripts": {
       "dev": "cd demo && mix phx.server"
     }

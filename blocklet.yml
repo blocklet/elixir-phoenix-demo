@@ -2,16 +2,10 @@ name: Elixir-Phoenix-Demo
 description: Elixir Phoenix Blocklet Demo
 version: 0.0.1
 group: dapp
-publicUrl: /
-adminUrl: ''
-configUrl: ''
-docUrl: ''
 keywords: []
 author:
   name: ArcBlock
 main: .
-capabilities:
-  dynamicPathPrefix: false
 scripts:
   dev: cd demo && mix phx.server
 did: z8iZiHNje2fyq2Pkpq9SMf9wsjWFxYhXjJNCh
@@ -19,9 +13,16 @@ community: ''
 documentation: ''
 homepage: ''
 license: ''
-charging:
-  price: 0
-interfaces: []
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
 environments: []
 screenshots: []
-specVersion: 1.0.0
+specVersion: 1.0.1
+timeout:
+  start: 10
+files: []
